@@ -17,11 +17,11 @@ Xamarin Library
 
 Android:
 
-MainActivity.cs→line128→write down your AppID
+MainActivity.cs→write down your AppID
 
 
 iOS:
 
 info.plist→Advanced→URL Schemes→write down your AppID
 
-AppDelegate.cs→line31→write down your AppID and universal link
+AppDelegate.cs→write down your AppID and universal link
