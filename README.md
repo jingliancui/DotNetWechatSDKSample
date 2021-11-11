@@ -6,7 +6,11 @@ Tutorial:
 https://mp.weixin.qq.com/s/L5ZXOPIIlqeybWdDSDNdAg
 
 
-QQ Group:313308215
+QQ Group:
+
+521288080
+
+313308215(满)
 
 WeChat Official Account(微信公众号):
 
