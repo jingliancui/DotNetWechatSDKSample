@@ -3,7 +3,13 @@ Sample for showing Wechat SDK on xamarin.forms
 
 Tutorial:
 
-https://mp.weixin.qq.com/s/L5ZXOPIIlqeybWdDSDNdAg
+MAUI: 
+
+https://mp.weixin.qq.com/s/w3Xg9QMFMKKwDlOiMm3lyg
+
+https://zhuanlan.zhihu.com/p/598833074
+
+Forms: https://mp.weixin.qq.com/s/L5ZXOPIIlqeybWdDSDNdAg
 
 
 QQ Group:
