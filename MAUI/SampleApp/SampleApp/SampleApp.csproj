@@ -58,8 +58,23 @@
 	  </PackageReference>
 	</ItemGroup>
 
+        <ItemGroup Condition="'$(TargetFramework)' == 'net7.0-android'">
+          <PackageReference Include="XamarinLibrary.Xamarin.Android.WechatSDK">
+            <Version>6.8.20</Version>
+          </PackageReference>
+        </ItemGroup>
+
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-ios|AnyCPU'">
 	  <MtouchLink>None</MtouchLink>	  
 	  <MtouchExtraArgs>-gcc_flags "-ObjC -framework Security -framework CoreGraphics -framework WebKit -all_load"</MtouchExtraArgs>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0-android|AnyCPU'">
+	  <AndroidPackageFormat>apk</AndroidPackageFormat>
+	  <ApplicationId>com.companyname.sampleapp</ApplicationId>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-android|AnyCPU'">
+	  <ApplicationId>com.companyname.sampleapp</ApplicationId>
 	</PropertyGroup>
 </Project>
