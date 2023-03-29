@@ -1,5 +1,5 @@
-# XamarinFormsWechatSDKSample
-Sample for showing Wechat SDK on xamarin.forms
+# DotNetWechatSDKSample
+Sample for showing Wechat SDK on MAUI/xamarin.forms
 
 Tutorial:
 
