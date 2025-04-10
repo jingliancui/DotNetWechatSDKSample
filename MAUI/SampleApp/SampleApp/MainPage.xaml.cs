@@ -9,7 +9,8 @@ using Xamarin.Google.Crypto.Tink.Shaded.Protobuf;
 #if IOS
 using WXApi_Api;
 using WXApiObject_Api;
-using WXApiObject_Structs;
+using WechatAuthSDK_Api;
+using WechatAuthSDK_Structs;
 #endif
 
 public partial class MainPage : ContentPage
